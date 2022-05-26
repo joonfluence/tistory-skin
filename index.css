@@ -446,7 +446,7 @@ select::-ms-expand {
 
 /* header */
 .header {
-  height: 86px;
+  height: 150px;
   box-shadow: 0 1px rgba(0, 0, 0, 0.1), 0 -1px rgba(0, 0, 0, 0.1);
   background-color: #fff;
   z-index: 9999;
@@ -519,6 +519,25 @@ select::-ms-expand {
   display: none;
 }
 
+.box_home {
+  display: flex;
+  gap: 12px;
+}
+
+.box_home a {
+  color: #777;
+  font-size: 18px;
+  padding: 22px 4px 24px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 830px) {
+  .box_home a {
+    font-size: 16px;
+  }
+}
+
+/**
 .header.fix_header .box_header {
   display: none;
 }
@@ -528,6 +547,7 @@ select::-ms-expand {
   display: block;
   height: 57px;
 }
+**/
 
 .fix_header .link_back {
   position: absolute;
@@ -678,7 +698,7 @@ select::-ms-expand {
 
 .ly_area .ly_logo {
   display: inline-block;
-  max-width: 300px;
+  max-width: 350px;
   height: 56px;
 }
 
@@ -1327,10 +1347,13 @@ select::-ms-expand {
 }
 
 /* 서브 상세 */
+/**
 .container_sub_detail {
   margin-top: 60px;
 }
+**/
 
+/**
 .container_sub_detail .header {
   position: fixed;
   width: 100%;
@@ -1343,16 +1366,20 @@ select::-ms-expand {
   position: fixed;
 }
 
+**/
+
 .container_sub_detail .footer .area_address {
   padding-bottom: 72px;
 }
 
 /* media */
+/**
 @media screen and (min-width: 743px) {
   .container_sub_detail {
     margin-top: 87px;
   }
 }
+**/
 
 /* 서브 상세페이지 - 본문 */
 .box_article {
