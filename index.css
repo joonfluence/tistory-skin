@@ -568,6 +568,7 @@ select::-ms-expand {
   fill: rgba(0, 0, 0, 0.84);
 }
 
+/*
 .fix_header .btn_menu {
   position: absolute;
   top: 29px;
@@ -575,6 +576,7 @@ select::-ms-expand {
   background-color: transparent;
   cursor: pointer;
 }
+*/
 
 .fix_header .box_fix_tit {
   padding: 0 40px;
@@ -2716,7 +2718,7 @@ select::-ms-expand {
     margin: 84px auto 0 auto;
     padding-left: 24px;
     padding-right: 24px;
-    max-width: 1100px;
+    max-width: 1200px;
     display: block;
   }
 
@@ -2733,7 +2735,7 @@ select::-ms-expand {
 
   /* 헤더 */
   .header .inner_header {
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
   }
 
@@ -3838,6 +3840,14 @@ select::-ms-expand {
 
 .item-visit {
   font-size: 1rem;
+}
+
+.wrap_detail_content .content_list:first-child h1 {
+  display: block;
+}
+
+.wrap_detail_content .content_list h1 {
+  display: none;
 }
 
 #content_article_rep .box_thumb .thumb_img {
